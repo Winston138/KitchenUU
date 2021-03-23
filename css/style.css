@@ -1,0 +1,43 @@
+.conteiner {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.conteiner_top_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.conteiner_form_text, 
+.conteiner_material_text, 
+.conteiner_plan_text, 
+.conteiner_pay_text,
+.conteiner_contact_text,
+.container_type_text,
+.container_equipment_text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.conteiner_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_text {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_num {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner_material {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кухни</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="conteiner">
+        <h1 class="conteiner_top_title">Узнайте стоимость<br> самого выгодного<br> предложения в СПБ</h1>
+
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <div class="conteiner_form">                        
+                    <div class="conteiner_form_text_input"> 
+                        <div class="conteiner_form_text">
+                            <p>Выберите форму кухни</p>  
+                        </div> 
+                        <div class="conteiner_form_input">           
+                            <p><input name="форма" type="radio" value="Прямая" checked>Прямая</p>
+                            <p><input name="форма" type="radio" value="Островная">Островная</p>
+                            <p><input name="форма" type="radio" value="Угловая">Угловая</p>
+                            <p><input name="форма" type="radio" value="П-образаня">П-образаня</p>  
+                        </div>                      
+                    </div>
+                <div class="conteiner_image">
+                    <img src="/img/97117abf00caffef687a87c6bf5ae50e.png" alt="форма кухни">
+                </div>
+            </div>
+
+            <div class="container_size">
+                <div class="container_text">
+                    <p>Длина стороны А, см</p>                
+                    <p>Длина стороны B, см</p>                
+                    <p>Длина стороны C, см</p>
+                </div>
+                <div class="container_num">
+                    <p><input type="number" size="20" name="num" min="1" max="20" value="1"></p>
+                    <p><input type="number" size="20" name="num" min="1" max="20" value="1"></p>
+                    <p><input type="number" size="20" name="num" min="1" max="20" value="1"></p>
+                </div>
+            </div>
+
+            <div class="conteiner_material">                        
+                <div class="conteiner_material_text_input"> 
+                    <div class="conteiner_material_text">
+                        <p>Материал кухни</p>  
+                    </div> 
+                    <div class="conteiner_material_input">           
+                        <p><input name="Материал" type="radio" value="ЛДСП" checked>ЛДСП</p>
+                        <p><input name="Материал" type="radio" value="МДФ">МДФ</p>
+                        <p><input name="Материал" type="radio" value="Пластик">Пластик</p>
+                        <p><input name="Материал" type="radio" value="Не знаю">Не знаю</p>  
+                    </div>                      
+                </div>
+                <div class="conteiner_image">
+                    <img src="/img/7855c2b090aebe52e80d6f0dfe478c08.png" alt="форма кухни">
+                </div>
+            </div>
+
+            <div class="container_type">
+                <p class="container_type_text"><strong>Тип фурнитуры</strong></p>
+                <p><select name="Тип"></p>
+                    <option value="s1">Выберите пункт...</option>
+                    <option value="s2">Премиум</option>
+                    <option value="s3">Стандарт</option>
+                    <option value="s4">Эконом</option>
+                </select>
+            </div>
+
+            <div class="container_equipment">
+                <p class="container_equipment_text"><strong>Бытовая техника></strong></p>
+                <p><select name="Тип"></p>
+                    <option value="s1">Выберите пункт...</option>
+                    <option value="s2">Встроенная</option>
+                    <option value="s3">Отдельностоящая</option>
+                </select>
+            </div>
+
+            <div class="conteiner_plan">                        
+                <div class="conteiner_plan_text_input"> 
+                    <div class="conteiner_plan_text">
+                        <p>Когда планируете покупку</p>  
+                    </div> 
+                    <div class="conteiner_plan_input">           
+                        <p><input name="план" type="radio" value="В этом месяце" checked>В этом месяце</p>
+                        <p><input name="план" type="radio" value="В течение 3-х месяцев">В течение 3-х месяцев</p>
+                        <p><input name="план" type="radio" value="В течение 6-ти месяцев">В течение 6-ти месяцев</p>
+                        <p><input name="план" type="radio" value="В течение года">В течение года</p> 
+                        <p><input name="план" type="radio" value="Просто хочу узнать">Просто хочу узнать</p>   
+                    </div>                      
+                </div>               
+            </div>
+
+            <div class="conteiner_pay">                        
+                <div class="conteiner_pay_text_input"> 
+                    <div class="conteiner_pay_text">
+                        <p>Способы оплаты</p>  
+                    </div> 
+                    <div class="conteiner_pay_input">           
+                        <p><input name="оплата" type="radio" value="Наличный расчет" checked>Наличный расчет</p>
+                        <p><input name="оплата" type="radio" value="Рассрочка без переплаты 0%">Рассрочка без переплаты 0%"</p>                        
+                    </div>                      
+                </div>               
+            </div>
+
+            <div class="conteiner_contact">                        
+                <div class="conteiner_contact_text_input"> 
+                    <div class="conteiner_contact_text">
+                        <p>Куда отправить вам расчет</p>  
+                    </div> 
+                    <div class="conteiner_contact_input">           
+                        <p><input name="контакты" type="radio" value="WhatsApp" checked>WhatsApp</p>
+                        <p><input name="контакты" type="radio" value="Telegram">Telegram</p>
+                        <p><input name="контакты" type="radio" value="Viber">Viber</p>
+                        <p><input name="контакты" type="radio" value="Звонок на телефон">Звонок на телефон</p>                          
+                    </div>                      
+                </div>               
+            </div>
+        </form>
+    </div>
+</body>
+</html>
