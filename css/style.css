@@ -1,12 +1,13 @@
 .conteiner {
-    max-width: 800px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 780px;
     margin: 0px auto;
 }
 
-.conteiner_top_title {
+.conteiner_top_title {    
     text-align: center;
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 27px;
 }
 
 .conteiner_form_text, 
@@ -15,14 +16,19 @@
 .conteiner_pay_text,
 .conteiner_contact_text,
 .container_type_text,
-.container_equipment_text {
-    font-size: 20px;
-    font-weight: 700;
+.container_equipment_text,
+.number {
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .conteiner_form {
     display: flex;
     justify-content: space-between;
+}
+
+.conteiner_form_text {
+    padding-top: 40px;
 }
 
 .container_text {
