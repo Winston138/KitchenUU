@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 .container {
-    font-family: 'Roboto', sans-serif;
     max-width: 800px;
     margin: 20px auto;
     padding: 0px 20px;
@@ -38,6 +40,7 @@
     font-weight: 700;
     display: grid;
     grid-auto-flow: column;
+    grid-gap: 1rem;
 }
 
 .container_form_text {
@@ -243,7 +246,7 @@
       font-size: 14px;
 }
 
-.personal_data_link {
+.pdn__open {
     text-decoration: none;
     color: #6b9bd1;
 }
@@ -275,6 +278,33 @@
       background: #6598ff; color: #fff;
 }
 
+.pdn {
+    padding: 2rem;
+    font-size: .8rem;
+    width: 800px;
+    position: fixed;
+    margin: auto;
+    height: fit-content;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0 0 0 5000px rgb(0 0 0 / 30%);
+    background: #fff;
+    border-radius: 10px;
+    z-index: 10;
+    line-height: 1.4;
+    display: none;
+}
+.pdn__close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #666;
+    cursor: pointer;
+}
 
 
 @media (max-width: 540px){
