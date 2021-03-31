@@ -5,16 +5,26 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+
+
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 0px 20px;
 }
-
-.container_top_title {    
+header{
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+}
+header img{
+    width: 25%;
+}
+.container_top_title {
+    text-align: right;
     font-weight: 600;
-    font-size: 27px;
+    font-size: 24px;
 }
 
 .container_form_text, 
@@ -29,7 +39,9 @@ body{
     font-weight: 600;
     padding-top: 10px;
 }
-
+.container_size{
+    margin-bottom: 1rem;
+}
 .container_form,
 .container_material {
     display: flex;
@@ -289,7 +301,7 @@ body{
     left: 0;
     top: 0;
     bottom: 0;
-    box-shadow: 0 0 0 5000px rgb(0 0 0 / 30%);
+    box-shadow: 0 0 0 5000px rgba(0,0,0,.3);
     background: #fff;
     border-radius: 10px;
     z-index: 10;
@@ -308,12 +320,20 @@ body{
 
 
 @media (max-width: 540px){
+    header,
     .container,
     .container_form,
     .container_material,
     .container_num,
     .container_text {
         display: block;
-        max-width: none;
     }
+
+    header img{
+        width: 50%;
+    }
+    .container_top_title{
+        text-align: center;
+    }
+
 }
